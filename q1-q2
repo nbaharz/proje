@@ -1,0 +1,23 @@
+#q1)
+list1=[5,4,3,[8,9,2],[11],'car',3]
+list2=[]
+for i in list1:
+    if type(i)==int:
+        list2.append(i)
+    else:
+        for j in i:
+            list2.append(j)
+print(list2)
+#q2)
+list1=[3,4,[8,9],[10,21],"a","b","c"]
+list2=list1[::-1]
+list3=[]
+for i in list2:
+    if type(i)==int:
+        list3.append(i)
+    else:
+        for j in i:
+            list3.append(j)
+print(list3)
+
+
